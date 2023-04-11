@@ -10,7 +10,7 @@
 
 ---
 
-About Me :
+### About Me :
 
 - :woman_student: I'm a novice developer from Russia.
 - :computer: Interested in the backend and frontend.
