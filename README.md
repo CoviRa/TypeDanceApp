@@ -12,7 +12,7 @@
 
 ### About Me :
 
-- :woman_student: I'm a novice developer from Russia.
+- :woman_student: My name is Svetlana and I am a novice developer .
 - :computer: Interested in the backend and frontend.
 - :newspaper: In my free time, I like to watch the latest news about advances in mobile applications.
 
