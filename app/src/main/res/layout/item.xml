@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:background="@drawable/grad">
+
+            <ImageView
+                android:id="@+id/imageViewDance"
+                android:layout_width="match_parent"
+                android:layout_height="258dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hip_hop_one" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleDance"
+                android:text="Хип-Хоп"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="18dp"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@id/imageViewDance"
+                />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Хип-хоп - это культурное движение, включающее в себя музыку, танец, моду и искусство. Танец хип-хопа включает в себя разнообразные стили и элементы, такие как брейкданс, поппинг, локинг, кроме того, важным элементом является свободный стиль и индивидуальность исполнителя."
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="16dp"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:layout_marginLeft="16dp"
+                android:layout_below="@id/titleDance"
+                />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,3 +1,77 @@
 <resources>
-    <string name="app_name">TypeDanceApp</string>
+    <string name="app_name">TypeDance</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_title">Войдите в свой аккаунт</string>
+    <string name="login_email">Ваш email или имя пользователя</string>
+    <string name="Login">Уже зарегистрированы? Войти</string>
+    <string name="typedance">TypeDance</string>
+    <string name="begin">НАЧАТЬ</string>
+    <string name="your_password">Ваш пароль</string>
+    <string name="your_login_or_user">Ваш логин или псевдоним</string>
+    <string name="register_title">Регистрация</string>
+    <string name="username">Имя пользователя</string>
+    <string name="login">Логин</string>
+    <string name="password">Введите пароль</string>
+    <string name="password_correct">Подтвердите пароль</string>
+    <string name="register_t">Зарегистрироваться</string>
+    <string name="forgot_pas">Забыли пароль?</string>
+    <string name="not_acc">Нет аккаунта?</string>
+    <string name="create">Создать</string>
+    <string name="open">Войти</string>
+    <string name="pol_m">Мужской</string>
+    <string name="pol_f">Женский</string>
+    <string name="pas_confpass">Пароли должны быть одинаковыми</string>
+    <string name="not_empty">Поля не должны быть пустыми</string>
+    <string name="not_reg">Ошибка регистрации</string>
+    <string name="reset_pas">Восстановление пароля</string>
+    <string name="log_res">Введите свой email</string>
+    <string name="reset">Восстановить</string>
+    <string name="letter_pas">Вам отправлено письмо с ссылкой для восстановления пароля</string>
+    <string name="er_pas">Вы неправильно ввели пароль</string>
+    <string name="sign_google">Войти c помощью Google</string>
+    <string name="or">Или</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_home">Главное</string>
+    <string name="title_dashboard">Классы</string>
+    <string name="title_notifications">Интересное</string>
+    <string name="profile">Профиль</string>
+    <string name="settings">Настройки</string>
+    <string name="welcome1">Добро пожаловать, %1$s!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+
+
+    <!--    Heading-->
+    <string name="wensday_news">Не только «Уэнсдей»: лучшие танцы в истории кино</string>
+    <string name="dancing_christopher">Танцующий Кристофер Уокен стал мемом об уверенности и безразличии</string>
+
+    <!--    News1-->
+    <string name="rain_text">«Поющие под дождем» (1952)</string>
+    <string name="pulp_name">«Криминальное чтиво» (1994)</string>
+    <string name="wensday_news_text">Танец Уэнсдей из нашумевшего одноимённого сериала за месяц принес каналу Netflix на YouTube 30 миллионов просмотров. Загадочная Дженна Ортега резкими, но такими завораживающими движениями запустила целый флешмоб. Придуманную актрисой хореографию попытались повторить не только не отстающие от трендов Леди Гага и Ким Кардашьян, но и сам сэр Энтони Хопкинс, и только поэтому эту сцену уже можно назвать культовой. Попытаемся поностальгировать и вспомнить: а какие еще танцы из истории мирового кинематографа заставляли нас покрываться мурашками и завороженно смотреть в телеэкран?</string>
+    <string name="singin_in_the_rain">Номер под песню Singin’ in the Rain сделал одноименный музыкальный фильм классикой «золотого века» Голливуда. Актер, исполнивший ведущую роль, нередко экспериментировал на съемках и придумывал и более технически сложные танцы, но ни один из них не произвел на зрителей такого же сильного впечатления. Хотя это неудивительно: разве Джин Келли, который отбивает каблуками дорогих туфель чечетку по залитым дождем тротуарам, резвится в лужах и задорно прыгает по бордюрам, может оставить кого-то равнодушным?</string>
+    <string name="not_just_wansday">Не только «Уэнсдей»: лучшие танцы в истории кино</string>
+    <string name="pulp_text">«Криминальное чтиво» — фильм, сам по себе ставший классикой, а причудливый танец Мии и Винсента, взявших за него главный приз в конкурсе, буквально вернул популярность песне Чака Берри 1964 года You Never Can Tell. Между Джоном Траволтой и Умой Турман, несмотря на то, что они не касаются друг друга, — почти осязаемое притяжение. Это момент искреннего веселья и свободы посреди жестокой, наполненной хаосом реальности, и на этом контрасте особенно ярко раскрываются герои. Нельзя не заметить, что они танцуют твист совершенно по-разному: индивидуальная хореография показывает характеры Мии и Винсента не хуже гениальных диалогов Тарантино. Кстати, сам режиссер рассказал, что на эту сцену его вдохновил танец из фильма «Банда аутсайдеров» Жана-Люка Годара, который также стал достоянием современной поп-культуры.</string>
+    <string name="jocker_name">«Джокер» (2019)</string>
+    <string name="text_jocker_dance">«Джокер» — фильм, который не только внес вклад в историю супергеройского кино своим глубоким психологизмом, но и сделал одну из лестниц в Бронксе популярной достопримечательностью для туристов. Танец, исполненный на ее ступенях Хоакином Фениксом, показал трансформацию главного героя. Из неуверенного в себе, но отчаянно стремящегося к признанию клоуна-аниматора, вынужденного регулярно терпеть насмешки и унижение, он превращается в Джокера. Человеческая жестокость заставляет Артура потерять веру в людей, а лестница, по которой он спускается, танцуя, символизирует душевную деградацию.</string>
+
+    <!--    News2-->
+    <string name="christofer_text">Легендарный танец актера Кристофера Уокена вновь обрел популярность. Благодаря TikTok и другим соцсетям расслабленные движения актера стали шаблоном для мемов, которые регулярно собирают миллионы просмотров.</string>
+    <string name="the_origin_of_the_dance">Происхождение танца</string>
+    <string name="origin_text">Ролик снимался в канун Рождества в лобби отеля Marriott в Лос-Анджелесе. На время съемок гостиница была закрыта и полностью пустовала. Видео строится вокруг героя Уокена, которому на момент съемок было 58 лет. Он не только исполнил главную роль в клипе, но и участвовал в создании хореографии и концепции видео. </string>
+    <string name="awards_name">Награды</string>
+    <string name="awards_text">Клип получил награды MTV Video Music Awards 2001 года в шести категориях: «Прорыв года», «Лучшая режиссура», «Лучшая хореография», «Лучшая художественная работа», «Лучший монтаж» и «Лучшая операторская работа». Он также удостоился «Грэмми» в номинации «Лучшее короткое музыкальное видео». В 2002 году Weapon Of Choice попало на первое место рейтинга 100 лучших видео всех времен по версии VH1.</string>
+    <string name="mem_name">Мемы</string>
+    <string name="mem_text">Танец Уокена особенно завирусился в декабре 2022 года. Интернет-пользователи начали использовать отрывок из Weapon Of Choice в качестве образца уверенности и безразличия к внешним обстоятельствам. Три месяца назад танец Уокена спародировал звезда бондианы Дэниэл Крэйг.</string>
+    <string name="plan">План</string>
+    <string name="clips">Клипы</string>
+    <string name="education">Обучение</string>
 </resources>

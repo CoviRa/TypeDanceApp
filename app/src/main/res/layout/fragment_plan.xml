@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainScreen.plan.PlanFragment">
+
+    <ScrollView
+        android:layout_marginBottom="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ques_title"
+                android:layout_width="337dp"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Какой вид танца вы бы хотели изучить?"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ques_title1"
+                android:layout_width="270dp"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="Выберите танец из списка"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/hiphop_one"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hip_hop_one"
+                />
+
+            <Button
+                android:id="@+id/dance_one_but"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:layout_marginTop="5dp"
+                android:text="Хип-Хоп"
+                android:background = "@drawable/grad_plan"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/kpop_one"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kpop_one"
+                />
+
+            <Button
+                android:id="@+id/dance_two_but"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:layout_marginTop="10dp"
+                android:text="К-ПОП"
+                android:background = "@drawable/grad_plan"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/zumba_one"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/zumba_one"/>
+
+            <Button
+                android:id="@+id/dance_three_but"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Зумба"
+                android:background = "@drawable/grad_plan"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--    <androidx.viewpager2.widget.ViewPager2-->
+    <!--        android:id="@+id/viewP2"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent">-->
+
+    <!--    </androidx.viewpager2.widget.ViewPager2>-->
+
+    <!--    <com.google.android.material.tabs.TabLayout-->
+    <!--        android:id="@+id/tabL"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:tabGravity="center"-->
+    <!--        app:tabTextColor="@color/black"-->
+    <!--        app:tabIndicatorColor="@color/yellow_100"-->
+    <!--        app:tabIndicatorHeight="4dp"-->
+    <!--        app:tabMode="fixed"-->
+    <!--        android:background="@color/white"-->
+    <!--        tools:ignore="SpeakableTextPresentCheck" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
